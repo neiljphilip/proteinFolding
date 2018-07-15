@@ -4,13 +4,17 @@
 
 BeginPackage["FirstProgramPeter`"]
 (* Exported symbols added here with SymbolName::usage *) 
-
+diamondHamiltonian::usage =
+	"diamondHamiltonian[bitstring, one, connect, overlap] computes an Ising model matrix J 
+	and vector h using the Diamond Encoding given an HP-model bitstring and 
+	one, connect, and overlap penalty values."
 Begin["`Private`"]
-(* Implementation of the package *)
+(* Bitstring conversion to Diamond J and encoding vector. *)
+
+
 
 
 
 End[]
 
 EndPackage[]
-
