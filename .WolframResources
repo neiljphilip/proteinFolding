@@ -1,0 +1,7 @@
+Resources[
+    Version[1],
+    ExecutionBuildCommand["<<FirstProgramPeter`"],
+    Paclet[
+        FunctionPaclet[False]
+    ]
+]
